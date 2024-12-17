@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Faustina", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px; }
+
+body{ background-color: rgba(206, 224, 238, 0.632); }
+
+/*navbar titre*/
+
+header{ text-align: center;
+    color: black;
+    background-color: #396d98	; }
+
+h1 {padding: 35px 0px;
+    font-size: 32px;}
+
+/*navbar lien*/
+
+nav {padding: 10px 0px;    
+    background-color: #A7C7E7; }
+
+h2 {text-align: end;
+    font-size: 16px;}
+
+nav a {text-decoration: none;
+    color: #353935; }    
+
+.separateur { border-right: solid 2px;
+    padding: 0 25px;}
+
+.separateur2 {padding: 25px;}
+
+/*contenu*/
+
+.lorem {text-align: center;
+    color: black;
+    font-size: 16px;
+    padding: 50px 90px;}
+
+h4 {text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 50px; }
+
+.pic {width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: cover;
+    border-radius: 100%;
+    margin: 0px 35px;
+    box-shadow: 2px 5px 8px #6666b1;}
+
+.choix {text-align: center;
+    margin-bottom: 50px;}
+
+#voteResult {
+    text-align: center;
+}    
+
+.vote {
+    padding: 10px;
+}
+
+.button {
+    margin: 10px;
+}
+
+/*navbar bas*/
+
+footer {text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top; }
+
+
+    
